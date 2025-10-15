@@ -1,7 +1,7 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import footerCity from "../assets/footerCity.PNG";
+import footerCity from "../../public/assets/footerCity.PNG"
 
 const Footer = () => {
   return (
