@@ -1,6 +1,8 @@
     @import "tailwindcss";
 
     @theme {
-        --color-primary: #00b53f;
-        --color-navbutton: #fea03c;
+
+        --font-jiji: 'Roboto', 'sans-serif';
+        --color-primary: #00b53f; /* Jiji Green */
+        --color-navbutton: #fea03c; /* Jiji Orange */
     }

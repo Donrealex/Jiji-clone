@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import Search from '../components/Search'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
@@ -9,7 +10,9 @@ const HomePage = () => {
             <NavBar />
         </div>
         <Search />
-        
+        <Footer />
+       
+
     </section>
   )
 }
