@@ -4,5 +4,5 @@
 
         --font-jiji: 'Roboto', 'sans-serif';
         --color-primary: #00b53f; /* Jiji Green */
-        --color-navbutton: #fea03c; /* Jiji Orange */
+        --color-navbutton: rgb(254, 160, 60); /*#fea03c; Jiji Orange */
     }
