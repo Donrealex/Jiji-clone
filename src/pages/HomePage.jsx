@@ -6,15 +6,11 @@ import Footer from '../components/Footer'
 const HomePage = () => {
   return (
     <section>
-        <div className='w-full fixed z-50'>
-            <NavBar />
-        </div>
-        <Search />
-        <Footer />
-       
-
+      <NavBar style={"w-full fixed z-50"} />
+      <Search />
+      <Footer />
     </section>
-  )
+  );
 }
 
 export default HomePage
