@@ -8,14 +8,9 @@ import Hero from '../components/Hero'
 const HomePage = () => {
     return (
         <section className='bg-[#f6f8fd]'>
-            <div className='w-full fixed z-50'>
-                <NavBar />
-            </div>
+            <NavBar style={'w-full fixed z-50'} />
             <Search />
-            <div className='sticky top-10'>
-                <SideBar />
-                
-            </div>
+            <SideBar style={'sticky top-10'} />
             <Hero />
             <Footer />
 
