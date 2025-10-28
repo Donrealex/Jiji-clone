@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Hero = () => {
+    fetch("https://dummyjson.com/products")
+      .then((res) => res.json())
+      .then(console.log);
     return (
         <section className='flex justify-end'>
             <div className='grid grid-cols-4 bg-white h-500 w-6/10 mr-30'>
