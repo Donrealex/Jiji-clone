@@ -12,7 +12,7 @@ import { RiBarChart2Fill } from 'react-icons/ri'
 
 const NavBar = () => {
     return (
-        <section className='flex items-center bg-primary p-2 justify-between px-30 border-b-1 border-b-gray-500 font-jiji'>
+        <section className={`${style} flex items-center bg-primary p-2 justify-between px-30 border-b-1 border-b-gray-500 font-jiji`}>
             <h1 className='text-white text-4xl font-bold'>Jiji</h1>
 
         <div className="flex items-center gap-5">
