@@ -1,13 +1,16 @@
-import React from 'react'
-import { vehicleData } from '../constant/data'
+import React, { useState } from 'react'
+import { propertyData, vehicleData } from '../constant/data'
 
 const SideBar = ({ style }) => {
+  const [isVehicleHovered, setIsVehicleHovered] = useState(false)
+  const [isPropertyHovered, setIsPropertyHovered] = useState(false)
+
   return (
     <section className={`${style} font-jiji`}>
-      <div className="absolute top-10 h-120 p-2 left-95 -translate-x-1 mt-2 hidden cursor-pointer group-hover:flex group-hover:flex-col transition-all duration-1000 ease-in-out translate-y-1 group-hover:translate-y-0 bg-white rounded-md overflow-y-scroll">
-        <div className="">
+      <div>
+        {isVehicleHovered ? <div className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isVehicleHovered ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}>
           {vehicleData.map((item) => (
-            <div className="flex items-center p-2 hover:bg-searchbg cursor-pointer">
+            <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
               <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
               <div className="flex flex-col">
                 <h1 className="flex-1">{item.contents}</h1>
@@ -15,12 +18,25 @@ const SideBar = ({ style }) => {
               </div>
             </div>
           ))}
-        </div>
+        </div> : ""}
+
+        {isPropertyHovered ? <div className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isPropertyHovered ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}>
+          {propertyData.map((item) => (
+            <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+              <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+              <div className="flex flex-col">
+                <h1 className="flex-1">{item.contents}</h1>
+                <p className="text-gray-400">{item.num}</p>
+              </div>
+            </div>
+          ))}
+        </div> : ""}
       </div>
-      <div  className="relative group" >
-      <div className="absolute overflow-y-scroll top-10 h-120 left-30 flex flex-col bg-white rounded-lg">
-        <div className="p-2 border-b-1 border-searchbg group-hoverflex cursor-pointer"> Vehicles</div>
-        <div className="p-2 border-b-1 border-searchbg">Property</div>
+
+
+      <div className="absolute overflow-y-scroll top-10 h-120 left-30 flex flex-col bg-white rounded-lg transition-all duration-300">
+        <div onMouseEnter={() => { setIsVehicleHovered(!isVehicleHovered) }} onMouseLeave={() => { setIsVehicleHovered(!isVehicleHovered) }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer"> Vehicles</div>
+        <div onMouseEnter={() => { setIsPropertyHovered(!isPropertyHovered) }} onMouseLeave={() => { setIsPropertyHovered(!isPropertyHovered) }} className="p-2 border-b-1 border-searchbg">Property</div>
         <div className="p-2 border-b-1 border-searchbg">
           Mobile Phones and Tablet
         </div>
@@ -50,9 +66,10 @@ const SideBar = ({ style }) => {
         <div className="p-2 border-b-1 border-searchbg">Jobs</div>
         <div className="p-2 border-b-1 border-searchbg">Seeking Work-CVs</div>
       </div>
-      </div>
     </section>
-  );
+  )
+
 }
+
 
 export default SideBar
