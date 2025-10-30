@@ -19,7 +19,7 @@ const SideBar = ({ style }) => {
       </div>
       <div  className="relative group" >
       <div className="absolute overflow-y-scroll top-10 h-120 left-30 flex flex-col bg-white rounded-lg">
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer"> Vehicles</div>
+        <div className="p-2 border-b-1 border-searchbg group-hoverflex cursor-pointer"> Vehicles</div>
         <div className="p-2 border-b-1 border-searchbg">Property</div>
         <div className="p-2 border-b-1 border-searchbg">
           Mobile Phones and Tablet
