@@ -30,7 +30,7 @@ const SideBar = ({ style }) => {
           >
             {vehicleData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -57,7 +57,7 @@ const SideBar = ({ style }) => {
           >
             {propertyData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -84,7 +84,7 @@ const SideBar = ({ style }) => {
           >
             {phoneData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -111,7 +111,7 @@ const SideBar = ({ style }) => {
           >
             {electronicsData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -128,7 +128,7 @@ const SideBar = ({ style }) => {
               setIsHomeHovered(true);
             }}
             onMouseLeave={() => {
-              setIsHomeHovered(false);  
+              setIsHomeHovered(false);
             }}
             className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isHomeHovered
@@ -138,7 +138,7 @@ const SideBar = ({ style }) => {
           >
             {HomeData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -165,7 +165,7 @@ const SideBar = ({ style }) => {
           >
             {FashionData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -192,7 +192,7 @@ const SideBar = ({ style }) => {
           >
             {BeautyData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
-                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <img src={item.img} alt="car" className="w-8 h-8 mr-2" />
                 <div className="flex flex-col">
                   <h1 className="flex-1">{item.contents}</h1>
                   <p className="text-gray-400">{item.num}</p>
@@ -234,10 +234,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsVehicleHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          {" "}
-          Vehicles
+          <img
+            src="public/assets/cars.png"
+            alt="Cars"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Vehicles
+            <p className="text-gray-400">323,342 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -246,9 +253,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsPropertyHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Property
+          <img
+            src="public/assets/house.png"
+            alt="Property"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Property
+            <p className="text-gray-400">243,342 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -257,9 +272,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsPhoneHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Mobile Phones and Tablet
+          <img
+            src="public/assets/phones.png"
+            alt="Mobile Phones"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Mobile Phones and Tablet
+            <p className="text-gray-400">101,442 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -268,9 +291,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsElectronicsHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Electronics
+          <img
+            src="public/assets/laptops.png"
+            alt="Electronics"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Electronics
+            <p className="text-gray-400">271,442 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -279,9 +310,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsHomeHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Home, Furniture and Appliances
+          <img
+            src="public/assets/furniture.png"
+            alt="Home, Furniture and Appliances"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Home, Furniture and Appliances
+            <p className="text-gray-400">585,342 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -290,9 +329,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsFashionHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Fashion
+          <img
+            src="public/assets/womenRed.png"
+            alt="Fashion"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Fashion
+            <p className="text-gray-400">170,302 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -301,9 +348,17 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsBeautyHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Beauty and Personal Care
+          <img
+            src="public/assets/body.png"
+            alt="Beauty"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Beauty and Personal Care
+            <p className="text-gray-400">76,942 ads</p>
+          </div>
         </div>
         <div
           onMouseEnter={() => {
@@ -312,23 +367,106 @@ const SideBar = ({ style }) => {
           onMouseLeave={() => {
             setIsServiceHovered(true);
           }}
-          className="p-2 border-b-1 border-searchbg"
+          className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
-          Services
+          <img
+            src="public/assets/settings.png"
+            alt="Services"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Services
+            <p className="text-gray-400">90,142 ads</p>
+          </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg">
-          Commercial Equipment and Tools
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/repairCap.png"
+            alt="Repair & Construction"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Repair & Construction
+            <p className="text-gray-400">371,142 ads</p>
+          </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg">
-          Leisure and Activities
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/equipm.png"
+            alt="Commercial Equipment and Tools"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Commercial Equipment and Tools
+            <p className="text-gray-400">176,342 ads</p>
+          </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg">Babies and Kids</div>
-        <div className="p-2 border-b-1 border-searchbg">
-          Food, Agriculture and Farming
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+          src="public/assets/sport.png"
+            alt="Leisure and Activities"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Leisure and Activities
+            <p className="text-gray-400">87,440 ads</p>
+          </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg">Animals and Pets</div>
-        <div className="p-2 border-b-1 border-searchbg">Jobs</div>
-        <div className="p-2 border-b-1 border-searchbg">Seeking Work-CVs</div>
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/teddy.png"
+            alt="Babies and Kids"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Babies and Kids
+            <p className="text-gray-400">30,342 ads</p>
+          </div>
+        </div>
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/food.png"
+            alt="Food, Agriculture and Farming"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Food, Agriculture and Farming
+            <p className="text-gray-400">31,302 ads</p>
+          </div>
+        </div>
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/animals.png"
+            alt="Animals and Pets"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Animals and Pets
+            <p className="text-gray-400">11,302 ads</p>
+          </div>
+        </div>
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/jobs.png"
+            alt="Jobs"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Jobs
+            <p className="text-gray-400">1,962 ads</p>
+          </div>
+        </div>
+        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+          <img
+            src="public/assets/work.png"
+            alt="Seeking Work-CVs"
+            className="w-8 h-8 mr-3"
+          />
+          <div>
+            Seeking Work-CVs
+            <p className="text-gray-400">19,962 ads</p>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -336,4 +474,4 @@ const SideBar = ({ style }) => {
 }
 
 
-export default SideBar
+export default SideBar;
