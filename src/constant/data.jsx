@@ -69,7 +69,7 @@ import repair from "../../public/assets/repair.png"
 import cleaning from "../../public/assets/cleaning.png"
 import printing from "../../public/assets/printing.png"
 import manufacture from "../../public/assets/manufacture.png"
-import logistics from "../../public/assets/logistics.png"
+import logistic from "../../public/assets/logistic.png"
 import legal from "../../public/assets/legal.png"
 import tax from "../../public/assets/tax.png"
 import recruit from "../../public/assets/recruit.png"
@@ -442,7 +442,7 @@ export const ServiceData = [
     num: "4,394 ads",
   },
   {
-    img: logistics,
+    img: logistic,
     contents: "Logistics Services",
     num: "3,734 ads",
   },
@@ -532,3 +532,25 @@ export const ServiceData = [
     num: "1,234 ads",
   },
 ];
+// export cont seekingData = [
+//    {
+//       img: other,
+//       contents: "Accounting & Finance CVs",
+//       num: "454 ads"
+//    },
+//    {
+//       img: other,
+//       contents: "Jobs",
+//       num: "12,345 ads"
+//    },
+//    {
+//       img: other,
+//       contents: "Jobs",
+//       num: "12,345 ads"
+//    },
+//    {
+//       img: other,
+//       contents: "Jobs",
+//       num: "12,345 ads"
+//    },
+// ]
