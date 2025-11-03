@@ -442,7 +442,7 @@ export const ServiceData = [
       num: "4,394 ads",
    },
    {
-      img: logistics,
+      // img: logistics,
       contents: "Logistics Services",
       num: "3,734 ads",
    },

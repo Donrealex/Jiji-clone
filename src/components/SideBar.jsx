@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { propertyData, vehicleData, phoneData, electronicsData,HomeData, FashionData, BeautyData, ServiceData } from '../constant/data'
+import { propertyData, vehicleData, phoneData, electronicsData, HomeData, FashionData, BeautyData, ServiceData, repairData, commercialData, leisureData, babiesData, foodData, animalData, jobsData, seekingWorkData } from '../constant/data'
 
 const SideBar = ({ style }) => {
   const [isVehicleHovered, setIsVehicleHovered] = useState(false)
@@ -10,6 +10,14 @@ const SideBar = ({ style }) => {
   const [isFashionHovered, setIsFashionHovered] = useState(false)
   const [isBeautyHovered, setIsBeautyHovered] = useState(false)
   const [isServiceHovered, setIsServiceHovered] = useState(false)
+  const [isRepairHovered, setIsRepairHovered] = useState(false)
+  const [isCommercialHovered, setIsCommercialHovered] = useState(false)
+  const [isLeisureHovered, setIsLeisureHovered] = useState(false)
+  const [isBabiesHovered, setIsBabiesHovered] = useState(false)
+  const [isFoodHovered, setIsFoodHovered] = useState(false)
+  const [isAnimalHovered, setIsAnimalHovered] = useState(false)
+  const [isJobsHovered, setIsJobsHovered] = useState(false)
+  const [isSeekingworkHovered, setIsSeekingworkHovered] = useState(false)
 
   return (
     <section className={`${style} font-jiji`}>
@@ -22,11 +30,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsVehicleHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isVehicleHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isVehicleHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {vehicleData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -49,11 +56,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsPropertyHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isPropertyHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isPropertyHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {propertyData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -76,11 +82,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsPhoneHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isPhoneHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isPhoneHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {phoneData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -103,11 +108,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsElectronicsHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isElectronicsHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isElectronicsHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {electronicsData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -130,11 +134,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsHomeHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isHomeHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isHomeHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {HomeData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -157,11 +160,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsFashionHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isFashionHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isFashionHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {FashionData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -184,11 +186,10 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsBeautyHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isBeautyHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isBeautyHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {BeautyData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
@@ -205,13 +206,226 @@ const SideBar = ({ style }) => {
         )}
         {isServiceHovered ? (
           <div
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
-              isServiceHovered
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-95 pointer-events-none"
-            }`}
+            onMouseEnter={() => {
+              setIsServiceHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsServiceHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isServiceHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
           >
             {ServiceData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isRepairHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsRepairHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsRepairHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isRepairHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {repairData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isCommercialHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsCommercialHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsCommercialHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isCommercialHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {commercialData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isLeisureHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsLeisureHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsLeisureHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isLeisureHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {leisureData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isBabiesHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsBabiesHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsBabiesHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isBabiesHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {babiesData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isFoodHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsFoodHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsFoodHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isFoodHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {foodData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isAnimalHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsAnimalHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsAnimalHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isAnimalHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {animalData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isJobsHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsJobsHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsJobsHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isJobsHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {jobsData.map((item) => (
+              <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
+                <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="flex-1">{item.contents}</h1>
+                  <p className="text-gray-400">{item.num}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
+        {isSeekingworkHovered ? (
+          <div
+            onMouseEnter={() => {
+              setIsSeekingworkHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsSeekingworkHovered(false);
+            }}
+            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${isSeekingworkHovered
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+              }`}
+          >
+            {seekingWorkData.map((item) => (
               <div className="flex items-center border-b-1 border-searchbg p-2 hover:bg-searchbg cursor-pointer">
                 <img src={item.img} alt="car" className="w-10 h-10 mr-2" />
                 <div className="flex flex-col">
@@ -379,7 +593,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">90,142 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsRepairHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsRepairHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/repairCap.png"
             alt="Repair & Construction"
@@ -390,7 +609,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">371,142 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsCommercialHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsCommercialHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/equipm.png"
             alt="Commercial Equipment and Tools"
@@ -401,9 +625,14 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">176,342 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsLeisureHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsLeisureHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
-          src="public/assets/sport.png"
+            src="public/assets/sport.png"
             alt="Leisure and Activities"
             className="w-8 h-8 mr-3"
           />
@@ -412,7 +641,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">87,440 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsBabiesHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsBabiesHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/teddy.png"
             alt="Babies and Kids"
@@ -423,7 +657,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">30,342 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsFoodHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsFoodHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/food.png"
             alt="Food, Agriculture and Farming"
@@ -434,7 +673,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">31,302 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsAnimalHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsAnimalHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/animals.png"
             alt="Animals and Pets"
@@ -445,7 +689,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">11,302 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsJobsHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsJobsHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/jobs.png"
             alt="Jobs"
@@ -456,7 +705,12 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">1,962 ads</p>
           </div>
         </div>
-        <div className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
+        <div onMouseEnter={() => {
+          setIsSeekingworkHovered(true);
+        }}
+          onMouseLeave={() => {
+            setIsSeekingworkHovered(true);
+          }} className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex">
           <img
             src="public/assets/work.png"
             alt="Seeking Work-CVs"
