@@ -728,4 +728,4 @@ const SideBar = ({ style }) => {
 }
 
 
-export default SideBar;
+export default SideBar; 
