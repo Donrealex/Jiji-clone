@@ -4,6 +4,7 @@ import moto from "../../public/assets/moto.png"
 import bus from "../../public/assets/bus.png"
 import trucks from "../../public/assets/trucks.png"
 import heavy from "../../public/assets/heavy.png"
+import boats from "../../public/assets/boats.png"
 import services from "../../public/assets/services.png"
 
 import builds from "../../public/assets/builds.png"
@@ -69,7 +70,7 @@ import repair from "../../public/assets/repair.png"
 import cleaning from "../../public/assets/cleaning.png"
 import printing from "../../public/assets/printing.png"
 import manufacture from "../../public/assets/manufacture.png"
-import logistic from "../../public/assets/logistic.png"
+import logistics from "../../public/assets/logistics.png"
 import legal from "../../public/assets/legal.png"
 import tax from "../../public/assets/tax.png"
 import recruit from "../../public/assets/recruit.png"
@@ -87,6 +88,61 @@ import landscape from "../../public/assets/landscape.png"
 import pet from "../../public/assets/pet.png"
 import other from "../../public/assets/other.png"
 
+import generator from "../../public/assets/generator.png"
+import plumbing from "../../public/assets/plumbing.png"
+import eTools from "../../public/assets/eTools.png"
+import measure from "../../public/assets/measure.png"
+import hardwareService from "../../public/assets/hardwareService.png"
+import doors from "../../public/assets/doors.png"
+import windows from "../../public/assets/windows.png"
+import ladder from "../../public/assets/ladder.png"
+import repairService from "../../public/assets/repairService.png"
+import mSupplies from "../../public/assets/mSupplies.png"
+
+import medical from "../../public/assets/medical.png"
+import safety from "../../public/assets/safety.png"
+import stationery from "../../public/assets/stationery.png"
+import storeE from "../../public/assets/storeE.png"
+import restaurant from "../../public/assets/restaurant.png"
+import salonE from "../../public/assets/salonE.png"
+import printingE from "../../public/assets/printingE.png"
+import stageL from "../../public/assets/stageL.png"
+import manufacturingS from "../../public/assets/manufacturingS.png"
+import manufacturingE from "../../public/assets/manufacturingE.png"
+import manufacturingM from "../../public/assets/manufacturingM.png";
+
+import sportsE from "../../public/assets/sportsE.png"
+import musicalI from "../../public/assets/musicalI.png"
+import books from "../../public/assets/books.png"
+import arts from "../../public/assets/arts.png"
+import outdoor from "../../public/assets/outdoor.png"
+import smokingA from "../../public/assets/smokingA.png"
+import cds from "../../public/assets/cds.png"
+
+import toys from "../../public/assets/toys.png"
+import childF from "../../public/assets/childF.png"
+import childC from "../../public/assets/childC.png"
+import childS from "../../public/assets/childS.png"
+import babiesA from "../../public/assets/babiesA.png"
+import babyG from "../../public/assets/babyG.png"
+import careF from "../../public/assets/careF.png"
+import preg from "../../public/assets/preg.png"
+import stroller from "../../public/assets/stroller.png"
+import playgroundE from "../../public/assets/playgroundE.png"
+
+import food from "../../public/assets/food.png"
+import farmA from "../../public/assets/farmA.png"
+import feeds from "../../public/assets/feeds.png"
+import farmM from "../../public/assets/farmM.png"
+import farmS from "../../public/assets/farmS.png"
+
+import petA from "../../public/assets/petA.png"
+import cat from "../../public/assets/cat.png"
+import dogs from "../../public/assets/dogs.png"
+import fish from "../../public/assets/fish.png"
+import birds from "../../public/assets/birds.png"
+import otherA from "../../public/assets/otherA.png"
+import pets from "../../public/assets/pets.png"
 
 export const vehicleData = [
    {
@@ -121,7 +177,7 @@ export const vehicleData = [
       num: "211 ads"
    },
    {
-      img: services,
+      img: boats,
       contents: "Watercraft & Boats",
       num: "0 ads"
    },
@@ -442,7 +498,7 @@ export const ServiceData = [
       num: "4,394 ads",
    },
    {
-      // img: logistics,
+      img: logistics,
       contents: "Logistics Services",
       num: "3,734 ads",
    },
@@ -534,22 +590,22 @@ export const ServiceData = [
 ];
 export const repairData = [
    {
-      img: other,
+      img: generator,
       contents: "Electrical Equipment",
       num: "1,234 ads",
    },
    {
-      img: other,
+      img: mSupplies,
       contents: "Building Material & Supplies",
       num: "5,234 ads",
    },
    {
-      img: other,
+      img: plumbing,
       contents: "Plumbing & Water Systems",
       num: "40,459 ads",
    },
    {
-      img: other,
+      img: eTools,
       contents: "Electrical Hand Tools",
       num: "25,236 ads",
    },
@@ -559,220 +615,225 @@ export const repairData = [
       num: "10,345 ads",
    },
    {
-      img: other,
+      img: measure,
       contents: "Measuring & Testing Tools",
       num: "890 ads",
    },
    {
-      img: other,
+      img: hardwareService,
       contents: "Hardware & Fasteners",
       num: "14,547 ads",
    },
    {
-      img: other,
+      img: doors,
       contents: "Doors & Security",
       num: "289 ads",
    },
    {
-      img: other,
+      img: windows,
       contents: "Windows & Glass",
       num: "1,292 ads",
    },
    {
-      img: other,
-      contents: "Other Repair & Construction Items",
+      img: ladder,
+      contents: "Ladders & Scaffolding",
       num: "1,200 ads",
    },
    {
-      img: other,
+      img: trades,
       contents: "Building & Trade Services",
       num: "289 ads",
    },
    {
-      img: other,
+      img: repairService,
       contents: "Repair Services",
       num: "18,000 ads",
    }
 ]
 export const commercialData = [
-   {
-      img: other,
-      contents: "Medical Equipments & Supplies",
-      num: "30,234 ads",
-   },
-   {
-      img: other,
-      contents: "Safety Equipments & Protective Gear",
-      num: "434 ads",
-   },
-   {
-      img: other,
-      contents: "Manufacturing Equipment",
-      num: "21,345 ads",
-   },
-   {
-      img: other,
-      contents: "Retails & Stores Equipment",
-      num: "546 ads",
-   },
-   {
-      img: other,
-      contents: "Restaurant & Catering",
-      num: "17,568 ads",
-   },
-   {
-      img: other,
-      contents: "Stationery & Office Equipment",
-      num: "24,561 ads",
-   },
-   {
-      img: other,
-      contents: "Salon & Beauty Equipment",
-      num: "90,234 ads",
-   },
-   {
-      img: other,
-      contents: "Printing & Graphics Equipment",
-      num: "7,893 ads",
-   },
-   {
-      img: other,
-      contents: "Stage & Event Equipment",
-      num: "20,456 ads",
-   },
-   {
-      img: other,
-      contents: "Manufacturing Services",
-      num: "2,967 ads",
-   },
-]
+  {
+    img: medical,
+    contents: "Medical Equipments & Supplies",
+    num: "30,234 ads",
+  },
+  {
+    img: safety,
+    contents: "Safety Equipments & Protective Gear",
+    num: "434 ads",
+  },
+  {
+    img: manufacturingE,
+    contents: "Manufacturing Equipment",
+    num: "21,345 ads",
+  },
+  {
+    img: manufacturingS,
+    contents: "Manufacturing Materials & Supplies",
+    num: "21,345 ads",
+  },
+  {
+    img: storeE,
+    contents: "Retails & Stores Equipment",
+    num: "546 ads",
+  },
+  {
+    img: restaurant,
+    contents: "Restaurant & Catering",
+    num: "17,568 ads",
+  },
+  {
+    img: stationery,
+    contents: "Stationery & Office Equipment",
+    num: "24,561 ads",
+  },
+  {
+    img: salonE,
+    contents: "Salon & Beauty Equipment",
+    num: "90,234 ads",
+  },
+  {
+    img: printingE,
+    contents: "Printing & Graphics Equipment",
+    num: "7,893 ads",
+  },
+  {
+    img: stageL,
+    contents: "Stage & Event Equipment",
+    num: "20,456 ads",
+  },
+  {
+    img: manufacturingM,
+    contents: "Manufacturing Services",
+    num: "2,967 ads",
+  },
+];
 export const leisureData = [
    {
-      img: other,
+      img: sportsE,
       contents: "Sports Equipment",
       num: "55,008 ads",
    },
    {
-      img: other,
+      img: massager,
       contents: "Massagers",
       num: "4,168 ads",
    },
    {
-      img: other,
+      img: musicalI,
       contents: "Musical Instruments & Gear",
       num: "11,678 ads",
    },
    {
-      img: other,
+      img: books,
       contents: "Books & Tables Games",
       num: "2,788 ads",
    },
    {
-      img: other,
+      img: arts,
       contents: "Arts, Crafts & Awards",
       num: "7,270 ads",
    },
    {
-      img: other,
+      img: outdoor,
       contents: "Outdoor Gear",
       num: "34,666 ads",
    },
    {
-      img: other,
+      img: smokingA,
       contents: "Smoking Accessories",
       num: "67,000 ads",
    },
    {
-      img: other,
+      img: cds,
       contents: "Music & Video",
       num: "23,953 ads",
    },
    {
-      img: other,
+      img: fitness,
       contents: "Fitness & Personal Training",
       num: "112 ads",
    },
 ]
 export const babiesData = [
    {
-      img: other,
+      img: toys,
       contents: "Toys, Games & Bikes",
       num: "8,456 ads",
    },
    {
-      img: other,
-      contents: "Chikdren's Furniture",
+      img: childF,
+      contents: "Children's Furniture",
       num: "456 ads",
    },
    {
-      img: other,
+      img: childC,
       contents: "Children's Clothing",
       num: "4,610 ads",
    },
    {
-      img: other,
+      img: childS,
       contents: "Children's Shoes",
       num: "1,456 ads",
    },
    {
-      img: other,
+      img: babiesA,
       contents: "Babies & Kids Accessories",
       num: "3,674 ads",
    },
    {
-      img: other,
+      img: babyG,
       contents: "Baby Gear & Equipment",
       num: "1,908 ads",
    },
    {
-      img: other,
+      img: careF,
       contents: "Care & Feeding",
       num: "456 ads",
    },
    {
-      img: other,
+      img: preg,
       contents: "Maternity & Pregnancy",
-      num: "1.087 ads",
+      num: "1,087 ads",
    },
    {
-      img: other,
+      img: stroller,
       contents: "Transport & Safety",
       num: "563 ads",
    },
    {
-      img: other,
+      img: playgroundE,
       contents: "Playground Equipment",
       num: "109 ads",
    },
    {
-      img: other,
+      img: child,
       contents: "Child Care & Education Services",
       num: "10,412 ads",
    }
 ]
 export const foodData = [
    {
-      img: other,
+      img: food,
       contents: "Food & Beverages",
       num: "12,234 ads",
    },
    {
-      img: other,
+      img: farmA,
       contents: "Farm Animals",
       num: "2,133 ads",
    },
    {
-      img: other,
+      img: feeds,
       contents: "Feeds, Supplements & Seeds",
       num: "234 ads",
    },
    {
-      img: other,
+      img: farmM,
       contents: "Farm MAchinery & Equipment",
       num: "612 ads",
    },
    {
-      img: other,
+      img: farmS,
       contents: "Farm Animal Feed & Supplements",
       num: "758 ads",
    },
@@ -780,37 +841,37 @@ export const foodData = [
 
 export const animalData = [
    {
-      img: other,
+      img: petA,
       contents: "Pet's Accessories",
       num: "2,671 ads",
    },
    {
-      img: other,
+      img: cat,
       contents: "Cats & Kitten",
       num: "700 ads",
    },
    {
-      img: other,
+      img: dogs,
       contents: "Dogs & Puppies",
       num: "7,003 ads",
    },
    {
-      img: other,
+      img: fish,
       contents: "Fish",
       num: "671 ads",
    },
    {
-      img: other,
+      img: birds,
       contents: "Birds",
       num: "206 ads",
    },
    {
-      img: other,
+      img: otherA,
       contents: "Other Animals",
       num: "264 ads",
    },
    {
-      img: other,
+      img: pets,
       contents: "Pet Services",
       num: "215 ads",
    },
