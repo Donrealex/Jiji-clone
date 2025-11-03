@@ -179,157 +179,157 @@ export const propertyData = [
       num: "4,574 ads"
    },
 ]
-export const phoneData =[
-    {
-    img: phones,
-    contents: "Mobile Phones",
-    num: "6,884 ads"
-    },
-    {
-    img: accessories,
-    contents: "Accessories for Phones & Tablets",
-    num: "1,588 ads"
-    },
-    {
-        img: watches,
-    contents: "Smart Watches",
-    num: "1,208 ads"
+export const phoneData = [
+   {
+      img: phones,
+      contents: "Mobile Phones",
+      num: "6,884 ads"
+   },
+   {
+      img: accessories,
+      contents: "Accessories for Phones & Tablets",
+      num: "1,588 ads"
+   },
+   {
+      img: watches,
+      contents: "Smart Watches",
+      num: "1,208 ads"
 
-    },
-    {
-    img: tablets, 
-    contents: "Tablets",
-    num: "798 ads"
-    },
-    {
-    img: headphones,
-    contents: "Headphones",
-    num: "1,173 ads"
-    }
+   },
+   {
+      img: tablets,
+      contents: "Tablets",
+      num: "798 ads"
+   },
+   {
+      img: headphones,
+      contents: "Headphones",
+      num: "1,173 ads"
+   }
 ]
 export const electronicsData = [
-  {
-    img: laptops,
-    contents: "Laptops & Computers",
-    num: "52,911 ads",
-  },
-  {
-    img: tv,
-    contents: "TV & DVD Equipment",
-    num: "39,387 ads",
-  },
-  {
-    img: consoles,
-    contents: "Video Games & Consoles",
-    num: "7,378 ads",
-  },
-  {
-    img: audio,
-    contents: "Audio & Music Equipment",
-    num: "49,958 ads",
-  },
-  {
-    img: headphones,
-    contents: "Headphones",
-    num: "2,345 ads",
-  },
-  {
-    img: cameras,
-    contents: "Photo & Video Cameras",
-    num: "6,299 ads",
-  },
-  {
+   {
+      img: laptops,
+      contents: "Laptops & Computers",
+      num: "52,911 ads",
+   },
+   {
+      img: tv,
+      contents: "TV & DVD Equipment",
+      num: "39,387 ads",
+   },
+   {
+      img: consoles,
+      contents: "Video Games & Consoles",
+      num: "7,378 ads",
+   },
+   {
+      img: audio,
+      contents: "Audio & Music Equipment",
+      num: "49,958 ads",
+   },
+   {
+      img: headphones,
+      contents: "Headphones",
+      num: "2,345 ads",
+   },
+   {
+      img: cameras,
+      contents: "Photo & Video Cameras",
+      num: "6,299 ads",
+   },
+   {
       img: security,
       contents: "Security & Surveillance",
       num: "17,787 ads",
-  },
-  {
-   img: networking,
-   contents: "Networking Products",
-   num: "13,513 ads",
-  },
-  {
-   img: printers,
-   contents: "Printers & Scanners",
-   num: "7,570 ads",
-  },
-  {
-   img: computer,
-   contents: "Computer Monitors",
-   num: "3,801 ads",
-  },
-  {
-   img: accessoriesPc,
-   contents: "Computer Hardware",
-   num: "5,306 ads",
-  },
-  {
-   img: hardware,
-   contents: "Computer Accessories",
-   num: "18,918 ads",
-  },
-  {
-   img: supplies,
-   contents: "Accessories & Supplies for Electronics",
-   num: "25,516 ads",
-  },
-  {
-   img: game,
-   contents: "Video Games",
-   num: "4,450 ads",
-  },
-  {
-   img: software,
-   contents: "Softwares",
-   num: "1,266 ads",
-  }
+   },
+   {
+      img: networking,
+      contents: "Networking Products",
+      num: "13,513 ads",
+   },
+   {
+      img: printers,
+      contents: "Printers & Scanners",
+      num: "7,570 ads",
+   },
+   {
+      img: computer,
+      contents: "Computer Monitors",
+      num: "3,801 ads",
+   },
+   {
+      img: accessoriesPc,
+      contents: "Computer Hardware",
+      num: "5,306 ads",
+   },
+   {
+      img: hardware,
+      contents: "Computer Accessories",
+      num: "18,918 ads",
+   },
+   {
+      img: supplies,
+      contents: "Accessories & Supplies for Electronics",
+      num: "25,516 ads",
+   },
+   {
+      img: game,
+      contents: "Video Games",
+      num: "4,450 ads",
+   },
+   {
+      img: software,
+      contents: "Softwares",
+      num: "1,266 ads",
+   }
 ];
 export const HomeData = [
-  {
-    img: furniture,
-    contents: "Furniture",
-    num: "179,678 ads"
-  },
-  {
-    img: lighting,
-    contents: "Lighting",
-    num: "43,012 ads"
-  },
-  {
-    img: storage,
-    contents: "Storage & Organization",
-    num: "10,456 ads"
-  },
-  {
-    img: homeAccessories,
-    contents: "Home Accessories",
-    num: "81,234 ads"
-  },
-  {
-    img: appliances,
-    contents: "Home Appliances",
-    num: "12,345 ads"
-  },
-  {
+   {
+      img: furniture,
+      contents: "Furniture",
+      num: "179,678 ads"
+   },
+   {
+      img: lighting,
+      contents: "Lighting",
+      num: "43,012 ads"
+   },
+   {
+      img: storage,
+      contents: "Storage & Organization",
+      num: "10,456 ads"
+   },
+   {
+      img: homeAccessories,
+      contents: "Home Accessories",
+      num: "81,234 ads"
+   },
+   {
+      img: appliances,
+      contents: "Home Appliances",
+      num: "12,345 ads"
+   },
+   {
       img: kitchen,
       contents: "Kitchen Appliances",
       num: "129,678 ads"
-  },
-  {
+   },
+   {
       img: cookware,
       contents: "Kitchenware & Cookware",
       num: "39,890 ads"
-  },
-  {
+   },
+   {
       img: chemicals,
       contents: "Household Chemicals",
       num: "2,709 ads"
-  },
-  {
+   },
+   {
       img: garden,
       contents: "Garden Supplies",
       num: "14,890 ads"
-  }
+   }
 ];
 export const FashionData = [
    {
@@ -406,129 +406,713 @@ export const BeautyData = [
    },
 ]
 export const ServiceData = [
-  {
-    img: trades,
-    contents: "Building & Trades Services",
-    num: "28,834 ads",
-  },
-  {
-    img: services,
-    contents: "Car Services",
-    num: "6,144 ads",
-  },
-  {
-    img: it,
-    contents: "Computer & IT Services",
-    num: "7,834 ads",
-  },
-  {
-    img: repair,
-    contents: "Repair Services",
-    num: "4,234 ads",
-  },
-  {
-    img: cleaning,
-    contents: "Cleaning Services",
-    num: "4,134 ads",
-  },
-  {
-    img: printing,
-    contents: "Printing Services",
-    num: "8,604 ads",
-  },
-  {
-    img: manufacture,
-    contents: "Manufacturing Services",
-    num: "4,394 ads",
-  },
-  {
-    img: logistics,
-    contents: "Logistics Services",
-    num: "3,734 ads",
-  },
-  {
-    img: legal,
-    contents: "Legal Services",
-    num: "524 ads",
-  },
-  {
-    img: tax,
-    contents: "Tax & Financial Services",
-    num: "190 ads",
-  },
-  {
-    img: recruit,
-    contents: "Recruitment Services",
-    num: "1,234 ads",
-  },
-  {
-    img: rental,
-    contents: "Rental Services",
-    num: "2,954 ads",
-  },
-  {
-    img: airport,
-    contents: "Chauffer & Airport Transport Services",
-    num: "234 ads",
-  },
-  {
-    img: travel,
-    contents: "Travel Agents Tours",
-    num: "1,324 ads",
-  },
-  {
-    img: classes,
-    contents: "Classes & Courses",
-    num: "1,134 ads",
-  },
-  {
-    img: child,
-    contents: "Child Care & Education Services",
-    num: "366 ads",
-  },
-  {
-    img: health,
-    contents: "Health & Beauty Services",
-    num: "1,234 ads",
-  },
-  {
-    img: fitness,
-    contents: "Fitness & Personal Training Services",
-    num: "114 ads",
-  },
-  {
-    img: party,
-    contents: "Party,Catering & Event Services",
-    num: "2,984 ads",
-  },
-  {
-    img: dj,
-    contents: "DJ & Entertainment Services",
-    num: "599 ads",
-  },
-  {
-    img: wedding,
-    contents: "Wedding Venues & Services",
-    num: "1,234 ads",
-  },
-  {
-    img: photography,
-    contents: "Photography & Video Services",
-    num: "1,174 ads",
-  },
-  {
-    img: landscape,
-    contents: "Landscape & Gardening Services",
-    num: "941 ads",
-  },
-  {
-    img: pet,
-    contents: "Pet Services",
-    num: "1,234 ads",
-  },
-  {
-    img: other,
-    contents: "Other Services",
-    num: "1,234 ads",
-  },
+   {
+      img: trades,
+      contents: "Building & Trades Services",
+      num: "28,834 ads",
+   },
+   {
+      img: services,
+      contents: "Car Services",
+      num: "6,144 ads",
+   },
+   {
+      img: it,
+      contents: "Computer & IT Services",
+      num: "7,834 ads",
+   },
+   {
+      img: repair,
+      contents: "Repair Services",
+      num: "4,234 ads",
+   },
+   {
+      img: cleaning,
+      contents: "Cleaning Services",
+      num: "4,134 ads",
+   },
+   {
+      img: printing,
+      contents: "Printing Services",
+      num: "8,604 ads",
+   },
+   {
+      img: manufacture,
+      contents: "Manufacturing Services",
+      num: "4,394 ads",
+   },
+   {
+      img: logistics,
+      contents: "Logistics Services",
+      num: "3,734 ads",
+   },
+   {
+      img: legal,
+      contents: "Legal Services",
+      num: "524 ads",
+   },
+   {
+      img: tax,
+      contents: "Tax & Financial Services",
+      num: "190 ads",
+   },
+   {
+      img: recruit,
+      contents: "Recruitment Services",
+      num: "1,234 ads",
+   },
+   {
+      img: rental,
+      contents: "Rental Services",
+      num: "2,954 ads",
+   },
+   {
+      img: airport,
+      contents: "Chauffer & Airport Transport Services",
+      num: "234 ads",
+   },
+   {
+      img: travel,
+      contents: "Travel Agents Tours",
+      num: "1,324 ads",
+   },
+   {
+      img: classes,
+      contents: "Classes & Courses",
+      num: "1,134 ads",
+   },
+   {
+      img: child,
+      contents: "Child Care & Education Services",
+      num: "366 ads",
+   },
+   {
+      img: health,
+      contents: "Health & Beauty Services",
+      num: "1,234 ads",
+   },
+   {
+      img: fitness,
+      contents: "Fitness & Personal Training Services",
+      num: "114 ads",
+   },
+   {
+      img: party,
+      contents: "Party,Catering & Event Services",
+      num: "2,984 ads",
+   },
+   {
+      img: dj,
+      contents: "DJ & Entertainment Services",
+      num: "599 ads",
+   },
+   {
+      img: wedding,
+      contents: "Wedding Venues & Services",
+      num: "1,234 ads",
+   },
+   {
+      img: photography,
+      contents: "Photography & Video Services",
+      num: "1,174 ads",
+   },
+   {
+      img: landscape,
+      contents: "Landscape & Gardening Services",
+      num: "941 ads",
+   },
+   {
+      img: pet,
+      contents: "Pet Services",
+      num: "1,234 ads",
+   },
+   {
+      img: other,
+      contents: "Other Services",
+      num: "1,234 ads",
+   },
 ];
+export const repairData = [
+   {
+      img: other,
+      contents: "Electrical Equipment",
+      num: "1,234 ads",
+   },
+   {
+      img: other,
+      contents: "Building Material & Supplies",
+      num: "5,234 ads",
+   },
+   {
+      img: other,
+      contents: "Plumbing & Water Systems",
+      num: "40,459 ads",
+   },
+   {
+      img: other,
+      contents: "Electrical Hand Tools",
+      num: "25,236 ads",
+   },
+   {
+      img: other,
+      contents: "Hand Tools",
+      num: "10,345 ads",
+   },
+   {
+      img: other,
+      contents: "Measuring & Testing Tools",
+      num: "890 ads",
+   },
+   {
+      img: other,
+      contents: "Hardware & Fasteners",
+      num: "14,547 ads",
+   },
+   {
+      img: other,
+      contents: "Doors & Security",
+      num: "289 ads",
+   },
+   {
+      img: other,
+      contents: "Windows & Glass",
+      num: "1,292 ads",
+   },
+   {
+      img: other,
+      contents: "Other Repair & Construction Items",
+      num: "1,200 ads",
+   },
+   {
+      img: other,
+      contents: "Building & Trade Services",
+      num: "289 ads",
+   },
+   {
+      img: other,
+      contents: "Repair Services",
+      num: "18,000 ads",
+   }
+]
+export const commercialData = [
+   {
+      img: other,
+      contents: "Medical Equipments & Supplies",
+      num: "30,234 ads",
+   },
+   {
+      img: other,
+      contents: "Safety Equipments & Protective Gear",
+      num: "434 ads",
+   },
+   {
+      img: other,
+      contents: "Manufacturing Equipment",
+      num: "21,345 ads",
+   },
+   {
+      img: other,
+      contents: "Retails & Stores Equipment",
+      num: "546 ads",
+   },
+   {
+      img: other,
+      contents: "Restaurant & Catering",
+      num: "17,568 ads",
+   },
+   {
+      img: other,
+      contents: "Stationery & Office Equipment",
+      num: "24,561 ads",
+   },
+   {
+      img: other,
+      contents: "Salon & Beauty Equipment",
+      num: "90,234 ads",
+   },
+   {
+      img: other,
+      contents: "Printing & Graphics Equipment",
+      num: "7,893 ads",
+   },
+   {
+      img: other,
+      contents: "Stage & Event Equipment",
+      num: "20,456 ads",
+   },
+   {
+      img: other,
+      contents: "Manufacturing Services",
+      num: "2,967 ads",
+   },
+]
+export const leisureData = [
+   {
+      img: other,
+      contents: "Sports Equipment",
+      num: "55,008 ads",
+   },
+   {
+      img: other,
+      contents: "Massagers",
+      num: "4,168 ads",
+   },
+   {
+      img: other,
+      contents: "Musical Instruments & Gear",
+      num: "11,678 ads",
+   },
+   {
+      img: other,
+      contents: "Books & Tables Games",
+      num: "2,788 ads",
+   },
+   {
+      img: other,
+      contents: "Arts, Crafts & Awards",
+      num: "7,270 ads",
+   },
+   {
+      img: other,
+      contents: "Outdoor Gear",
+      num: "34,666 ads",
+   },
+   {
+      img: other,
+      contents: "Smoking Accessories",
+      num: "67,000 ads",
+   },
+   {
+      img: other,
+      contents: "Music & Video",
+      num: "23,953 ads",
+   },
+   {
+      img: other,
+      contents: "Fitness & Personal Training",
+      num: "112 ads",
+   },
+]
+export const babiesData = [
+   {
+      img: other,
+      contents: "Toys, Games & Bikes",
+      num: "8,456 ads",
+   },
+   {
+      img: other,
+      contents: "Chikdren's Furniture",
+      num: "456 ads",
+   },
+   {
+      img: other,
+      contents: "Children's Clothing",
+      num: "4,610 ads",
+   },
+   {
+      img: other,
+      contents: "Children's Shoes",
+      num: "1,456 ads",
+   },
+   {
+      img: other,
+      contents: "Babies & Kids Accessories",
+      num: "3,674 ads",
+   },
+   {
+      img: other,
+      contents: "Baby Gear & Equipment",
+      num: "1,908 ads",
+   },
+   {
+      img: other,
+      contents: "Care & Feeding",
+      num: "456 ads",
+   },
+   {
+      img: other,
+      contents: "Maternity & Pregnancy",
+      num: "1.087 ads",
+   },
+   {
+      img: other,
+      contents: "Transport & Safety",
+      num: "563 ads",
+   },
+   {
+      img: other,
+      contents: "Playground Equipment",
+      num: "109 ads",
+   },
+   {
+      img: other,
+      contents: "Child Care & Education Services",
+      num: "10,412 ads",
+   }
+]
+export const foodData = [
+   {
+      img: other,
+      contents: "Food & Beverages",
+      num: "12,234 ads",
+   },
+   {
+      img: other,
+      contents: "Farm Animals",
+      num: "2,133 ads",
+   },
+   {
+      img: other,
+      contents: "Feeds, Supplements & Seeds",
+      num: "234 ads",
+   },
+   {
+      img: other,
+      contents: "Farm MAchinery & Equipment",
+      num: "612 ads",
+   },
+   {
+      img: other,
+      contents: "Farm Animal Feed & Supplements",
+      num: "758 ads",
+   },
+]
+
+export const animalData = [
+   {
+      img: other,
+      contents: "Pet's Accessories",
+      num: "2,671 ads",
+   },
+   {
+      img: other,
+      contents: "Cats & Kitten",
+      num: "700 ads",
+   },
+   {
+      img: other,
+      contents: "Dogs & Puppies",
+      num: "7,003 ads",
+   },
+   {
+      img: other,
+      contents: "Fish",
+      num: "671 ads",
+   },
+   {
+      img: other,
+      contents: "Birds",
+      num: "206 ads",
+   },
+   {
+      img: other,
+      contents: "Other Animals",
+      num: "264 ads",
+   },
+   {
+      img: other,
+      contents: "Pet Services",
+      num: "215 ads",
+   },
+]
+export const jobsData = [
+   {
+    contents: "Advertising & Marketing Jobs",
+    num: "125 ads",
+  },
+   {
+    contents: "Accounting & Finance Jobs",
+    num: "35 ads",
+  },
+   {
+    contents: "Arts & Entertaining Jobs",
+    num: "25 ads",
+  },
+   {
+    contents: "Childcare & Babysitting Jobs",
+    num: "14 ads",
+  },
+   {
+    contents: "Clerical & Administrative Jobs",
+    num: "34 ads",
+  },
+   {
+    contents: "Computing & IT Jobs",
+    num: "41 ads",
+  },
+   {
+    contents: "Construction & Skilled Trade Jobs",
+    num: "22 ads",
+  },
+   {
+    contents: "Consulting & Strategy Jobs",
+    num: "3 ads",
+  },
+   {
+    contents: "Consumer Services Jobs",
+    num: "63 ads",
+  },
+   {
+    contents: "Driver Jobs",
+    num: "103 ads",
+  },
+   {
+    contents: "Engineering & Architecture Jobs",
+    num: "15 ads",
+  },
+   {
+    contents: "Farming & Veterinary Jobs",
+    num: "24 ads",
+  },
+   {
+    contents: "Gardening & Landscaping Jobs",
+    num: "5 ads",
+  },
+   {
+    contents: "Health & Beauty Jobs",
+    num: "104 ads",
+  },
+   {
+    contents: "Healthcare & Nursing Jobs",
+    num: "22 ads",
+  },
+   {
+    contents: "Hotel Jobs",
+    num: "55 ads",
+  },
+   {
+    contents: "Housekeeping & Cleaning Jobs",
+    num: "122 ads",
+  },
+   {
+    contents: "Human Resources Jobs",
+    num: "9 ads",
+  },
+   {
+    contents: "Intership Jobs",
+    num: "13 ads",
+  },
+   {
+    contents: "Logistics & Transportation Jobs",
+    num: "66 ads",
+  },
+   {
+    contents: "Management Jobs",
+    num: "28 ads",
+  },
+   {
+    contents: "Manual Labour Jobs",
+    num: "13 ads",
+  },
+   {
+    contents: "Manufacturing Jobs",
+    num: "34 ads",
+  },
+   {
+    contents: "Mining Industry Jobs",
+    num: "1 ads",
+  },
+   {
+    contents: "Office Jobs",
+    num: "81 ads",
+  },
+   {
+    contents: "Part-Time & Weekend Jobs",
+    num: "19 ads",
+  },
+   {
+    contents: "Quality Control & Assurance Jobs",
+    num: "3 ads",
+  },
+   {
+    contents: "Research & Survey Jobs",
+    num: "5 ads",
+  },
+   {
+    contents: "Restaurant & Bar Jobs",
+    num: "64 ads",
+  },
+   {
+    contents: "Retail Jobs",
+    num: "33 ads",
+  },
+   {
+    contents: "Sales & Telemarketing Jobs",
+    num: "146 ads",
+  },
+   {
+    contents: "Security Jobs",
+    num: "35 ads",
+  },
+   {
+    contents: "Sports Club Jobs",
+    num: "5 ads",
+  },
+   {
+    contents: "Teaching Jobs",
+    num: "56 ads",
+  },
+   {
+    contents: "Technology Jobs",
+    num: "13 ads",
+  },
+   {
+    contents: "Travel & Tourism Jobs",
+    num: "9 ads",
+  },
+   {
+    contents: "Other Jobs",
+    num: "122 ads",
+  },
+]
+
+export const seekingWorkData = [
+   {
+    contents: "Advertising & Marketing CVs",
+    num: "125 ads",
+  },
+   {
+    contents: "Accounting & Finance CVs",
+    num: "35 ads",
+  },
+   {
+    contents: "Arts & Entertaining CVs",
+    num: "25 ads",
+  },
+   {
+    contents: "Childcare & Babysitting CVs",
+    num: "14 ads",
+  },
+   {
+    contents: "Clerical & Administrative CVs",
+    num: "34 ads",
+  },
+   {
+    contents: "Computing & IT CVs",
+    num: "41 ads",
+  },
+   {
+    contents: "Construction & Skilled Trade CVs",
+    num: "22 ads",
+  },
+   {
+    contents: "Consulting & Strategy CVs",
+    num: "3 ads",
+  },
+   {
+    contents: "Consumer Services CVs",
+    num: "63 ads",
+  },
+   {
+    contents: "Driver CVs",
+    num: "103 ads",
+  },
+   {
+    contents: "Engineering & Architecture CVs",
+    num: "15 ads",
+  },
+   {
+    contents: "Farming & Veterinary CVs",
+    num: "24 ads",
+  },
+   {
+    contents: "Gardening & Landscaping CVs",
+    num: "5 ads",
+  },
+   {
+    contents: "Health & Beauty CVs",
+    num: "104 ads",
+  },
+   {
+    contents: "Healthcare & Nursing CVs",
+    num: "22 ads",
+  },
+   {
+    contents: "Hotel CVs",
+    num: "55 ads",
+  },
+   {
+    contents: "Housekeeping & Cleaning CVs",
+    num: "122 ads",
+  },
+   {
+    contents: "Human Resources CVs",
+    num: "9 ads",
+  },
+   {
+    contents: "Intership CVs",
+    num: "13 ads",
+  },
+   {
+    contents: "Logistics & Transportation CVs",
+    num: "66 ads",
+  },
+   {
+    contents: "Management CVs",
+    num: "28 ads",
+  },
+   {
+    contents: "Manual Labour CVs",
+    num: "13 ads",
+  },
+   {
+    contents: "Manufacturing CVs",
+    num: "34 ads",
+  },
+   {
+    contents: "Mining Industry CVs",
+    num: "1 ads",
+  },
+   {
+    contents: "Office CVs",
+    num: "81 ads",
+  },
+   {
+    contents: "Part-Time & Weekend CVs",
+    num: "19 ads",
+  },
+   {
+    contents: "Quality Control & Assurance CVs",
+    num: "3 ads",
+  },
+   {
+    contents: "Research & Survey CVs",
+    num: "5 ads",
+  },
+   {
+    contents: "Restaurant & Bar CVs",
+    num: "64 ads",
+  },
+   {
+    contents: "Retail CVs",
+    num: "33 ads",
+  },
+   {
+    contents: "Sales & Telemarketing CVs",
+    num: "146 ads",
+  },
+   {
+    contents: "Security CVs",
+    num: "35 ads",
+  },
+   {
+    contents: "Sports Club CVs",
+    num: "5 ads",
+  },
+   {
+    contents: "Teaching CVs",
+    num: "56 ads",
+  },
+   {
+    contents: "Technology CVs",
+    num: "13 ads",
+  },
+   {
+    contents: "Travel & Tourism CVs",
+    num: "9 ads",
+  },
+   {
+    contents: "Other CVs",
+    num: "122 ads",
+  },
+]
