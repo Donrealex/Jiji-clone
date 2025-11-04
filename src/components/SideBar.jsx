@@ -514,7 +514,7 @@ const SideBar = ({ style }) => {
         )}
       </div>
 
-      <div className="absolute overflow-y-scroll top-10 h-120 left-30 flex flex-col bg-white rounded-lg transition-all duration-300">
+      <div className="absolute overflow-y-hidden top-5 h-120 left-30 flex flex-col bg-white rounded-lg transition-all duration-300">
        {/* vehicle */}
         <div
           onMouseEnter={() => {
