@@ -70,11 +70,7 @@ import repair from "../../public/assets/repair.png"
 import cleaning from "../../public/assets/cleaning.png"
 import printing from "../../public/assets/printing.png"
 import manufacture from "../../public/assets/manufacture.png"
-<<<<<<< HEAD
 import logistics from "../../public/assets/logistics.png"
-=======
-// import logistic from "../../public/assets/logistic.png"
->>>>>>> 44b8f128ae38b0ff8dd19f02b2d3f806d7c3a30b
 import legal from "../../public/assets/legal.png"
 import tax from "../../public/assets/tax.png"
 import recruit from "../../public/assets/recruit.png"
