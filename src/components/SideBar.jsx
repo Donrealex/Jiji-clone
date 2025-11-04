@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
-import { propertyData, vehicleData, phoneData, electronicsData, HomeData, FashionData, BeautyData, ServiceData, repairData, commercialData, leisureData, babiesData, foodData, animalData, jobsData, seekingWorkData } from '../constant/data'
+import { propertyData, vehicleData, phoneData, 
+  electronicsData, HomeData, FashionData, 
+  BeautyData, ServiceData, repairData, 
+  commercialData, leisureData, babiesData, 
+  foodData, animalData, jobsData, seekingWorkData } from '../constant/data'
 
 const SideBar = ({ style }) => {
   const [isVehicleHovered, setIsVehicleHovered] = useState(false)
@@ -511,12 +515,13 @@ const SideBar = ({ style }) => {
       </div>
 
       <div className="absolute overflow-y-scroll top-10 h-120 left-30 flex flex-col bg-white rounded-lg transition-all duration-300">
+       {/* vehicle */}
         <div
           onMouseEnter={() => {
             setIsVehicleHovered(true);
           }}
           onMouseLeave={() => {
-            setIsVehicleHovered(true);
+            setIsVehicleHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex "
         >
@@ -530,12 +535,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">323,342 ads</p>
           </div>
         </div>
+        {/* property */}
         <div
           onMouseEnter={() => {
             setIsPropertyHovered(true);
           }}
           onMouseLeave={() => {
-            setIsPropertyHovered(true);
+            setIsPropertyHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -549,12 +555,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">243,342 ads</p>
           </div>
         </div>
+        {/* mobile phone & tablets */}
         <div
           onMouseEnter={() => {
             setIsPhoneHovered(true);
           }}
           onMouseLeave={() => {
-            setIsPhoneHovered(true);
+            setIsPhoneHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -568,12 +575,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">101,442 ads</p>
           </div>
         </div>
+        {/* electronics */}
         <div
           onMouseEnter={() => {
             setIsElectronicsHovered(true);
           }}
           onMouseLeave={() => {
-            setIsElectronicsHovered(true);
+            setIsElectronicsHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -587,12 +595,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">271,442 ads</p>
           </div>
         </div>
+        {/* Home & furniture */}
         <div
           onMouseEnter={() => {
             setIsHomeHovered(true);
           }}
           onMouseLeave={() => {
-            setIsHomeHovered(true);
+            setIsHomeHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -606,12 +615,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">585,342 ads</p>
           </div>
         </div>
+        {/* fashion */}
         <div
           onMouseEnter={() => {
             setIsFashionHovered(true);
           }}
           onMouseLeave={() => {
-            setIsFashionHovered(true);
+            setIsFashionHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -625,12 +635,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">170,302 ads</p>
           </div>
         </div>
+        {/* Beauty */}
         <div
           onMouseEnter={() => {
             setIsBeautyHovered(true);
           }}
           onMouseLeave={() => {
-            setIsBeautyHovered(true);
+            setIsBeautyHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -644,12 +655,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">76,942 ads</p>
           </div>
         </div>
+        {/* service */}
         <div
           onMouseEnter={() => {
             setIsServiceHovered(true);
           }}
           onMouseLeave={() => {
-            setIsServiceHovered(true);
+            setIsServiceHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -663,12 +675,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">90,142 ads</p>
           </div>
         </div>
+        {/* repair */}
         <div
           onMouseEnter={() => {
             setIsRepairHovered(true);
           }}
           onMouseLeave={() => {
-            setIsRepairHovered(true);
+            setIsRepairHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -682,12 +695,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">371,142 ads</p>
           </div>
         </div>
+        {/* commercial */}
         <div
           onMouseEnter={() => {
             setIsCommercialHovered(true);
           }}
           onMouseLeave={() => {
-            setIsCommercialHovered(true);
+            setIsCommercialHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -701,12 +715,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">176,342 ads</p>
           </div>
         </div>
+        {/* leasure */}
         <div
           onMouseEnter={() => {
             setIsLeisureHovered(true);
           }}
           onMouseLeave={() => {
-            setIsLeisureHovered(true);
+            setIsLeisureHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -720,12 +735,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">87,440 ads</p>
           </div>
         </div>
+        {/* Babies */}
         <div
           onMouseEnter={() => {
             setIsBabiesHovered(true);
           }}
           onMouseLeave={() => {
-            setIsBabiesHovered(true);
+            setIsBabiesHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -739,12 +755,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">30,342 ads</p>
           </div>
         </div>
+        {/* food */}
         <div
           onMouseEnter={() => {
             setIsFoodHovered(true);
           }}
           onMouseLeave={() => {
-            setIsFoodHovered(true);
+            setIsFoodHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -758,12 +775,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">31,302 ads</p>
           </div>
         </div>
+        {/* animal */}
         <div
           onMouseEnter={() => {
             setIsAnimalHovered(true);
           }}
           onMouseLeave={() => {
-            setIsAnimalHovered(true);
+            setIsAnimalHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -777,12 +795,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">11,302 ads</p>
           </div>
         </div>
+        {/* job work */}
         <div
           onMouseEnter={() => {
             setIsJobsHovered(true);
           }}
           onMouseLeave={() => {
-            setIsJobsHovered(true);
+            setIsJobsHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
@@ -796,12 +815,13 @@ const SideBar = ({ style }) => {
             <p className="text-gray-400">1,962 ads</p>
           </div>
         </div>
+        {/* seeking work */}
         <div
           onMouseEnter={() => {
             setIsSeekingworkHovered(true);
           }}
           onMouseLeave={() => {
-            setIsSeekingworkHovered(true);
+            setIsSeekingworkHovered(false);
           }}
           className="p-2 border-b-1 border-searchbg group-hover:flex cursor-pointer flex"
         >
