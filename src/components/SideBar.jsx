@@ -34,7 +34,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsVehicleHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isVehicleHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -65,7 +65,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsPropertyHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isPropertyHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -96,7 +96,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsPhoneHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isPhoneHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -127,7 +127,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsElectronicsHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isElectronicsHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -158,7 +158,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsHomeHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isHomeHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -189,7 +189,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsFashionHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isFashionHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -220,7 +220,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsBeautyHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isBeautyHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -251,7 +251,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsServiceHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isServiceHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -282,7 +282,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsRepairHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isRepairHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -313,7 +313,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsCommercialHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isCommercialHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -344,7 +344,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsLeisureHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isLeisureHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -375,7 +375,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsBabiesHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isBabiesHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -406,7 +406,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsFoodHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isFoodHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -437,7 +437,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsAnimalHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isAnimalHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -468,7 +468,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsJobsHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isJobsHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
@@ -494,7 +494,7 @@ const SideBar = ({ style }) => {
             onMouseLeave={() => {
               setIsSeekingworkHovered(false);
             }}
-            className={`absolute top-10 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
+            className={`absolute top-5 h-120 z-40 left-95 rounded-lg overflow-y-scroll bg-white shadow-md transition-all duration-1000 ease-in ${
               isSeekingworkHovered
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"

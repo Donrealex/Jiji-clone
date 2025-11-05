@@ -19,7 +19,7 @@ const Search = () => {
             All Nigeria <IoMdArrowDropdown color="grey" size={25} />
           </div>
           {allnigeria ? (
-            <div className="absolute flex flex-col top-25 w-5/7 left-50 z-40 h-130 bg-searchbg rounded-xl">
+            <div className="absolute flex flex-col top-25 w-5/7 left-50 z-50 h-130 bg-searchbg rounded-xl">
               <p
                 onClick={() => {
                   setAllnigeria(!allnigeria);
