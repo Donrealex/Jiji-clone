@@ -1177,3 +1177,35 @@ export const seekingWorkData = [
     num: "122 ads",
   },
 ]
+export const HeroData = [
+    {
+      id: "mobile-phones",
+      label: "Mobile Phones",
+      src: "/assets/mobile-phones.jpg",
+    },
+    {
+      id: "bags",
+      label: "Bags",
+      src: "/assets/Bags.jpg",
+    },
+    {
+      id: "shoes",
+      label: "Shoes",
+      src: "/assets/Shoes.jpg",
+    },
+    {
+      id: "houses-apartments",
+      label: "House & Apartment for rent",
+      src: "public/assets/Houses-Apartments.jpg",
+    },
+    {
+      id: "laptops-computers",
+      label: "Laptops & Computers",
+      src: "public/assets/Laptop-Computer.jpg",
+    },
+    {
+      id: "smoking-accessories",
+      label: "Smoking Accessories",
+      src: "public/assets/Smoking-Accessories.jpg",
+    },
+];

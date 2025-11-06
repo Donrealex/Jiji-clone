@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { FaThList } from 'react-icons/fa'
 import { IoAppsSharp } from 'react-icons/io5'
+import { HeroData } from '../constant/data'
 
 const Hero = () => {
     const [products, setProducts] = useState([])
@@ -21,98 +22,145 @@ const Hero = () => {
     }, [])
 
     return (
-        <section className='font-jiji flex flex-col w-6/10 ml-97 mt-10 gap-5'>
-            <div className='flex gap-2'>
-                <div className='relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-green-50 border-green-600'>
-                    <div className='absolute -top-5'>
-                        <img src='https://pictures-nigeria.jijistatic.net/JIJI-13466/c5e8e8d0f40140e5b30b1d94531f5635' alt='job_application' className='w-20' />
-                    </div>
-                    <p className='font-semibold'>Apply for job</p>
-                </div>
-                <div className='relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-green-50 border-green-600'>
-                    <div className='absolute -top-5'>
-                        <img src='https://pictures-nigeria.jijistatic.net/JIJI-13466/00ec10cf39db451d989f275696984af3' alt='Sell' className='w-20' />
-                    </div>
-                    <p className='font-semibold'>How to sell</p>
-                </div>
-                <div className='relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-blue-50 border-blue-600'>
-                    <div className='absolute -top-5'>
-                        <img src='https://pictures-nigeria.jijistatic.net/JIJI-13466/aba63e8606974d75926f0c339ca9ce0e' alt='Buy' className='w-20' />
-                    </div>
-                    <p className='font-semibold'>How to buy</p>
-                </div>
+      <section className="font-jiji flex flex-col w-6/10 ml-97 mt-10 gap-5">
+        <div className="flex gap-2">
+          <div className="relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-green-50 border-green-600">
+            <div className="absolute -top-5">
+              <img
+                src="https://pictures-nigeria.jijistatic.net/JIJI-13466/c5e8e8d0f40140e5b30b1d94531f5635"
+                alt="job_application"
+                className="w-20"
+              />
             </div>
-            <div className='flex flex-col gap-3'>
-                <h1 className='text-xl font-semibold'>Recommended for you</h1>
-                <div className='flex gap-2'>
-                    <div className='flex flex-col gap-2'>
-                        <img src='/assets/mobile phones.jpg' alt='Mobile Phones' className='w-35 h-40 rounded-xl' />
-                        <p>Mobile Phones</p>
-                    </div>
-                    <div className='flex flex-col gap-2'>
-                        <img src='/assets/Bags.jpg' alt='Bags' className='w-35 h-40 rounded-xl' />
-                        <p>Bags</p>
-                    </div>
-                    <div className='flex flex-col gap-2'>
-                        <img src='/assets/Shoes.jpg' alt='Shoes' className='w-35 h-40 rounded-xl' />
-                        <p>Shoes</p>
-                    </div>
-                    <div className='flex flex-col gap-2'>
-                        <img src='public/assets/Houses & Apartments.jpg' alt='House & Apartments' className='w-35 h-40 rounded-xl' />
-                        <p className='text-sm'>House & Apartment for rent</p>
-                    </div>
-                    <div className='flex flex-col gap-2'>
-                        <img src='/assets/Laptop & Computer.jpg' alt='Laptop & Computer' className='w-35 h-40 rounded-xl' />
-                        <p className='text-sm'>Laptops & Computers</p>
-                    </div>
-                    <div className='flex flex-col gap-2'>
-                        <img src='/assets/Smoking accessories.jpg' alt='Smoking Accessories' className='w-35 h-40 rounded-xl' />
-                        <p className='text-sm'>Smoking Accessories</p>
-                    </div>
-                </div>
+            <p className="font-semibold">Apply for job</p>
+          </div>
+          <div className="relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-green-50 border-green-600">
+            <div className="absolute -top-5">
+              <img
+                src="https://pictures-nigeria.jijistatic.net/JIJI-13466/00ec10cf39db451d989f275696984af3"
+                alt="Sell"
+                className="w-20"
+              />
             </div>
-            <div className='flex flex-col gap-3'>
-                <div className='flex items-center justify-between'>
-                    <h1 className='text-xl font-semibold'>Trending ads</h1>
-                    <div className='flex items-center gap-2'>
-                        <div onClick={()=>{setFlex(false),setGrid(true)}}>
-                            <IoAppsSharp color='grey' size={20} />
-                        </div>
-                        <div onClick={() => { setFlex(true),setGrid(false)}}>
-                            <FaThList color='grey' size={18} />
-                        </div>
-                    </div>
-                </div>
-                {flex ? <div className='flex flex-col gap-2'>
-                    {products.map((product, index) => (
-                        <div key={index} className='flex items-center rounded-xl p-4 border-2 border-primary gap-2'>
-                            <img alt={product.title} src={product.images[0]} className='w-45' />
-                            <div className='flex flex-col gap-3'>
-                                <div className='text-2xl font-semibold'>{product.title}</div>
-                                <div className='text-gray-600'>{product.description}</div>
-                                <div className='text-xl font-semibold'>$ {product.price}</div>
-                            </div>
-                        </div>
-                    )
-                    )}
-                </div> : ""}
-
-                {grid ? <div className='grid grid-cols-3 gap-2'>
-                    {products.map((product, index) => (
-                        <div key={index} className='flex flex-col items-center rounded-xl p-4 border-2 border-primary gap-3'>
-                            <img alt={product.title} src={product.images[0]} className='w-30' />
-                            <div className='text-center text-xl font-semibold'>{product.title}</div>
-                            <div className='text-center text-gray-600'>{product.description}</div>
-                            <div className='text-xl font-semibold'>$ {product.price}</div>
-                        </div>
-
-                    )
-                    )}
-                </div> : ""}
-
+            <p className="font-semibold">How to sell</p>
+          </div>
+          <div className="relative w-50 pl-4 pt-17 pb-2 border-1 rounded-lg bg-blue-50 border-blue-600">
+            <div className="absolute -top-5">
+              <img
+                src="https://pictures-nigeria.jijistatic.net/JIJI-13466/aba63e8606974d75926f0c339ca9ce0e"
+                alt="Buy"
+                className="w-20"
+              />
             </div>
-        </section >
-    )
+            <p className="font-semibold">How to buy</p>
+          </div>
+        </div>
+        {/* RECOMMENDATION */}
+        <div className="flex flex-col gap-3">
+          <h1 className="text-xl font-semibold">Recommended for you</h1>
+
+          <div className="flex gap-2">
+            {HeroData.map((item, index) => (
+              <div key={index} className="flex flex-col gap-2">
+                <img
+                  src={item.src}
+                  alt={item.id}
+                  className="w-35 h-40 rounded-xl"
+                />
+                <p>{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        {/* Trending */}
+        <div className="flex flex-col gap-3">
+          <div className="flex items-center justify-between">
+            <h1 className="text-xl font-semibold">Trending ads</h1>
+            {/* Trending flex/grid view green upon selection */}
+            <div className="flex items-center gap-2">
+              <div
+                onClick={() => {
+                  setFlex(false);
+                  setGrid(true);
+                }}
+                className="cursor-pointer"
+              >
+                <IoAppsSharp size={20} color={grid ? "#16a34a" : "grey"} />
+              </div>
+              <div
+                onClick={() => {
+                  setFlex(true);
+                  setGrid(false);
+                }}
+                className="cursor-pointer"
+              >
+                <FaThList size={18} color={flex ? "#16a34a" : "grey"} />
+              </div>
+            </div>
+          </div>
+
+          {/* Trending flex view */}
+          {flex ? (
+            <div className="flex flex-col gap-2">
+              {products.map((product, index) => (
+                <div
+                  key={index}
+                  className="flex items-center rounded-xl p-4 bg-white gap-2 scale-100 hover:scale-101 transition-transform duration-500 cursor-pointer"
+                >
+                  <img
+                    alt={product.title}
+                    src={product.images[0]}
+                    className="w-45"
+                  />
+
+                  <div className="flex flex-col gap-3">
+                    <div className="flex justify-between">
+                      <div className="text-2xl font-semibold">
+                        {product.title}
+                      </div>
+                      <div className="text-xl font-semibold text-primary">
+                        $ {product.price}
+                      </div>
+                    </div>
+                    <div className="text-gray-600">{product.description}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            ""
+          )}
+          {/* Trending grid view */}
+          {grid ? (
+            <div className="columns-3 gap-3 pb-7 p-4">
+              {products.map((product, index) => (
+                <div
+                  key={index}
+                  className=" break-inside-avoid flex flex-col bg-white items-center rounded-xl p-4 border-2 border-primary hover:border-[#fea03c] gap-3 scale-100 hover:scale-101 transition-transform duration-500 cursor-pointer"
+                >
+                  <img
+                    alt={product.title}
+                    src={product.images[0]}
+                    className="w-45"
+                  />
+                  <div className="text-xl font-semibold text-primary">
+                    $ {product.price}
+                  </div>
+                  <div className="text-center text-xl font-semibold">
+                    {product.title}
+                  </div>
+                  <div className="text-center text-gray-600">
+                    {product.description}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </section>
+    );
 }
 
 export default Hero
