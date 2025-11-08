@@ -1196,12 +1196,12 @@ export const HeroData = [
     {
       id: "houses-apartments",
       label: "House & Apartment for rent",
-      src: "public/assets/Houses-Apartments.jpg",
+      src: "/assets/Houses-Apartments.jpg",
     },
     {
       id: "laptops-computers",
       label: "Laptops & Computers",
-      src: "public/assets/Laptop-Computer.jpg",
+      src: "/assets/Laptop-Computer.jpg",
     },
     {
       id: "smoking-accessories",
