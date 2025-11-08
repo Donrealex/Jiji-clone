@@ -5,16 +5,16 @@ import { IoSearchSharp } from 'react-icons/io5'
 const Search = () => {
     const [allnigeria, setAllnigeria] = useState(false)
     return (
-      <section className=" flex flex-col items-center justify-center gap-5 bg-primary pt-35 pb-20 rounded-b-3xl font-jiji">
-        <h1 className="text-white text-2xl font-semibold">
+      <section className=" flex flex-col items-center justify-center gap-2 lg:gap-5 bg-primary p-5 lg:p-0 pt-35 pb-8 lg:pb-20 rounded-b-3xl font-jiji">
+        <h1 className="text-white text-xl lg:text-2xl font-semibold">
           What are you looking for?
         </h1>
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-3 lg:gap-5">
           <div
             onClick={() => {
               setAllnigeria(!allnigeria);
             }}
-            className="flex items-center cursor-pointer justify-center p-3 bg-white rounded-xl text-gray-500 font-medium"
+            className="flex items-center lg:cursor-pointer lg:justify-center p-2 justify-center gap-3 lg:p-3 w-1/2 bg-white rounded-xl text-gray-500 font-normal"
           >
             All Nigeria <IoMdArrowDropdown color="grey" size={25} />
           </div>
@@ -169,9 +169,9 @@ const Search = () => {
             <input
               type="text"
               placeholder="I am looking for..."
-              className="p-3 pr-20 bg-white rounded-xl font-medium text-gray-900 w-100 focus:outline-0 focus:text-black focus:font-normal"
+              className="p-2 lg:p-3 pr-20 bg-white rounded-xl font-medium text-gray-900 w-full lg:w-100 focus:outline-0 focus:text-black focus:font-normal"
             />
-            <div className="absolute top-3 right-3">
+            <div className="absolute top-2 right-3">
               <IoSearchSharp color="grey" size={23} />
             </div>
           </div>
