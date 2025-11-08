@@ -12,7 +12,7 @@ const HomePage = () => {
         <Search />
         {/* <SideBar style={"sticky top-15 z-40"} /> */}
         <Hero />
-        {/* <Footer /> */}
+        <Footer />
       </section>
     );
 }

@@ -16,7 +16,7 @@ const NavBar = ({ style }) => {
       <h1 className='text-white text-4xl font-bold'>Jiji</h1>
 
       <div className="flex items-center gap-5">
-        <div className="hidden lg:relative group p-1.5 bg-white rounded-full cursor-pointer">
+        <div className="hidden lg:block relative group p-1.5 bg-white rounded-full lg:cursor-pointer">
           <a href="https://jiji.ng/profile/saved">
             <IoMdBookmark color="grey" size={25} />
           </a>
@@ -24,7 +24,7 @@ const NavBar = ({ style }) => {
             Saved
           </span>
         </div>
-        <div className="group p-1.5 hidden lg:relative bg-white rounded-full cursor-pointer">
+        <div className="group p-1.5 hidden lg:block relative bg-white rounded-full cursor-pointer">
           <a href="https://jiji.ng/profile-messages">
             <MdMessage color="grey" size={25} />
           </a>
@@ -32,7 +32,7 @@ const NavBar = ({ style }) => {
             Messages
           </span>
         </div>
-        <div className="hidden lg:relative group p-1.5 bg-white rounded-full cursor-pointer">
+        <div className="hidden lg:block relative group p-1.5 bg-white rounded-full cursor-pointer">
           <a href="https://jiji.ng/profile/notifications">
             <IoNotifications color="grey" size={25} />
           </a>

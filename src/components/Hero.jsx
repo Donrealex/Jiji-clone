@@ -62,14 +62,14 @@ const Hero = () => {
         <div className="flex gap-2 overflow-x-scroll">
           {HeroData.map((item, index) => (
             <div key={index} className="flex flex-col gap-2">
-              <div className='w-40 lg:w-fit'>
+              <div className='w-40 lg:w-35'>
                 <img
                   src={item.src}
                   alt={item.id}
                   className="w-40 h-45 lg:w-35 lg:h-45 rounded-xl"
                 />
               </div>
-              <p>{item.label}</p>
+              <p className='text-sm'>{item.label}</p>
             </div>
           ))}
         </div>

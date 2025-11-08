@@ -1208,4 +1208,46 @@ export const HeroData = [
       label: "Smoking Accessories",
       src: "public/assets/Smoking-Accessories.jpg",
     },
+    {
+      id: "cars",
+      label: "Cars",
+      src: "/assets/cars.jpg",
+    },
+    {
+      id: "dogs & Puppies",
+      label: "Dogs & Puppies",
+      src: "/assets/dogs&puppies.jpg",
+    },
+    {
+      id: "farm animals",
+      label: "Farm Animals",
+      src: "/assets/farm_animals.jpg",
+    },
+    {
+      id: "clothing",
+      label: "Clothing",
+      src: "/assets/clothing.jpg",
+    },
+    {
+      id: "fragrances",
+      label: "Fragrances",
+      src: "/assets/fragrances.jpg",
+    },
+    {
+      id: "vehicle accessories",
+      label: "Vehicle Parts & Accessories",
+      src: "/assets/vehicle accessories.jpg",
+    },
+    {
+      id: "tablets",
+      label: "Tablets",
+      src: "/assets/tablets.jpg",
+    },
+    {
+      id: "travel agents",
+      label: "Travel Agents & Tours",
+      src: "/assets/travel_agents.jpg",
+    },
 ];
+
+
