@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { FaThList } from 'react-icons/fa'
 import { IoAppsSharp } from 'react-icons/io5'
-import { HeroData } from '../constant/data'
+import { HeroData, mobileSidebar } from '../constant/data'
 
 const Hero = () => {
   const [products, setProducts] = useState([])
@@ -55,6 +55,28 @@ const Hero = () => {
           <p className="font-semibold">How to buy</p>
         </div>
       </div>
+
+      {/* Mobile SideBar View */}
+      <div className='flex lg:hidden font-jiji'>
+        <div className='grid sm:grid-cols-3 grid-cols-4 md:grid-cols-5 items-start gap-4'>
+          <div className='flex flex-col items-center gap-1'>
+            <div>
+              <img src='/assets/postad.JPG' alt='Post ad' className='w-18 rounded-lg' />
+            </div>
+            <p className='text-sm'>Post ad</p>
+          </div>
+          {mobileSidebar.map((item, index) => (
+            <div key={index} className='flex flex-col items-center gap-1'>
+              <div>
+                <img src={item.src} alt={item.label} className='w-17 bg-gray-200 rounded-lg' />
+              </div>
+              <p className='text-sm text-center'>{item.label}</p>
+            </div>
+
+          ))}
+        </div>
+      </div>
+
       {/* RECOMMENDATION */}
       <div className="flex flex-col gap-3">
         <h1 className="text-xl font-semibold">Recommended for you</h1>

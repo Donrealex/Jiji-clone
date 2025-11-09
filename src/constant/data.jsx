@@ -1248,6 +1248,75 @@ export const HeroData = [
       label: "Travel Agents & Tours",
       src: "/assets/travel_agents.jpg",
     },
-];
+]
 
-
+export const mobileSidebar = [
+   {
+      src: "/assets/fire_emoji.JPG",
+      label: "Trending",
+    },
+   {
+      src: "/assets/cars.png",
+      label: "Vehicles",
+    },
+   {
+      src: "/assets/house.png",
+      label: "Property",
+    },
+   {
+      src: "/assets/phones.png",
+      label: "Mobile Phones & Tablets",
+    },
+   {
+      src: "/assets/laptops.png",
+      label: "Electronics",
+    },
+   {
+      src: "/assets/furniture.png",
+      label: "Home, Furniture",
+    },
+   {
+      src: "/assets/womenRed.png",
+      label: "Fashion",
+    },
+   {
+      src: "/assets/body.png",
+      label: "Beauty & Personal Care",
+    },
+   {
+      src: "/assets/settings.png",
+      label: "Services",
+    },
+   {
+      src: "/assets/repairCap.png",
+      label: "Repair & Construction",
+    },
+   {
+      src: "/assets/equipm.png",
+      label: "Commercial Equipment &",
+    },
+   {
+      src: "/assets/sport.png",
+      label: "Leisure & Activities",
+    },
+   {
+      src: "/assets/teddy.png",
+      label: "Babies & Kids",
+    },
+   {
+      src: "/assets/food.png",
+      label: "Food, Agriculture &",
+    },
+   {
+      src: "/assets/animals.png",
+      label: "Animals & Pets",
+    },
+   {
+      src: "/assets/jobs.png",
+      label: "Jobs",
+    },
+   {
+      src: "/assets/work.png",
+      label: "Seeking Work - CVs",
+    },
+]
