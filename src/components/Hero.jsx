@@ -76,7 +76,7 @@ const Hero = () => {
         <div className="flex flex-col gap-3">
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-semibold">Trending ads</h1>
-            {/* Trending flex/grid view green upon selection */}
+            {/* Trending flex/grid green upon selection */}
             <div className="flex items-center gap-2">
               <div
                 onClick={() => {
@@ -132,7 +132,7 @@ const Hero = () => {
           )}
           {/* Trending grid view */}
           {grid ? (
-            <div className="columns-3 gap-3 pb-7 p-4">
+            <div className="columns-4 gap-3 p-4">
               {products.map((product, index) => (
                 <div
                   key={index}
