@@ -72,7 +72,6 @@ const Hero = () => {
               <p className='text-sm'>{item.label}</p>
             </div>
           ))}
-<<<<<<< HEAD
         </div>
       </div>
       {/* Trending */}
@@ -101,36 +100,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-=======
-        </div>
-      </div>
-      {/* Trending */}
-      <div className="flex flex-col gap-3">
-        <div className="flex items-center justify-between">
-          <h1 className="text-xl font-semibold">Trending ads</h1>
-          {/* Trending flex/grid view green upon selection */}
-          <div className="flex items-center gap-2">
-            <div
-              onClick={() => {
-                setFlex(false);
-                setGrid(true);
-              }}
-              className="cursor-pointer"
-            >
-              <IoAppsSharp size={20} color={grid ? "#16a34a" : "grey"} />
-            </div>
-            <div
-              onClick={() => {
-                setFlex(true);
-                setGrid(false);
-              }}
-              className="cursor-pointer"
-            >
-              <FaThList size={18} color={flex ? "#16a34a" : "grey"} />
-            </div>
-          </div>
-        </div>
->>>>>>> 4c7c9c3e81306182185ade57db1404bf90afce96
 
         {/* Trending flex view */}
         {flex ? (
@@ -151,29 +120,10 @@ const Hero = () => {
                   <div className="flex justify-between">
                     <div className="text-lg lg:text-2xl font-semibold">
                       {product.title}
-<<<<<<< HEAD
                     </div>
                     <div className="text-xl font-semibold text-primary">
                       $ {product.price}
                     </div>
-                  </div>
-                  <div className="text-gray-600">{product.description}</div>
-                </div>
-
-                {/* Mobile View */}
-                <div className="flex lg:hidden flex-col gap-3">
-                  <div className="text-lg lg:text-2xl font-semibold">
-                    {product.title}
-                  </div>
-                  <div className="text-sm text-gray-600">{product.description}</div>
-                  <div className="text-xl font-semibold text-primary">
-                    $ {product.price}
-=======
-                    </div>
-                    <div className="text-xl font-semibold text-primary">
-                      $ {product.price}
-                    </div>
->>>>>>> 4c7c9c3e81306182185ade57db1404bf90afce96
                   </div>
                   <div className="text-gray-600">{product.description}</div>
                 </div>
