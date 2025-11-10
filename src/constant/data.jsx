@@ -142,7 +142,7 @@ import dogs from "../../public/assets/dogs.png"
 import fish from "../../public/assets/fish.png"
 import birds from "../../public/assets/birds.png"
 import otherA from "../../public/assets/otherA.png"
-import pets from "../../public/assets/pets.png"
+import pet from "../../public/assets/pet.png"
 
 export const vehicleData = [
    {
@@ -871,7 +871,7 @@ export const animalData = [
       num: "264 ads",
    },
    {
-      img: pets,
+      img: pet,
       contents: "Pet Services",
       num: "215 ads",
    },
