@@ -169,7 +169,7 @@ const Hero = () => {
         )}
         {/* Trending grid view */}
         {grid ? (
-          <div className="columns-2 lg:columns-3 gap-3 lg:gap-3 pb-7 p-2 lg:p-4">
+          <div className="columns-2 sm:columns-3 lg:columns-4 gap-3 lg:gap-3 pb-7 p-2 lg:p-4">
             {products.map((product, index) => (
               <div
                 key={index}

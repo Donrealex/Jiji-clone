@@ -142,7 +142,6 @@ import dogs from "../../public/assets/dogs.png"
 import fish from "../../public/assets/fish.png"
 import birds from "../../public/assets/birds.png"
 import otherA from "../../public/assets/otherA.png"
-import pet from "../../public/assets/pet.png"
 
 export const vehicleData = [
    {
@@ -1236,7 +1235,7 @@ export const HeroData = [
     {
       id: "vehicle accessories",
       label: "Vehicle Parts & Accessories",
-      src: "/assets/vehicle accessories.jpg",
+      src: "/assets/vehicle_accessories.jpg",
     },
     {
       id: "tablets",
