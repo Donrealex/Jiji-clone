@@ -1059,7 +1059,7 @@ export const HeroData = [
   {
     id: "smoking-accessories",
     label: "Smoking Accessories",
-    src: "public/assets/Smoking-Accessories.jpg",
+    src: "assets/Smoking-accessories.jpg",
   },
   {
     id: "cars",
