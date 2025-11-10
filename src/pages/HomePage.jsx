@@ -10,7 +10,7 @@ const HomePage = () => {
       <section className="bg-[#f6f8fd]">
         <NavBar style={"w-full fixed z-50"} />
         <Search />
-        {/* <SideBar style={"sticky top-15 z-40"} /> */}
+        <SideBar style={"sticky top-15 z-40"} />
         <Hero />
         <Footer />
       </section>
