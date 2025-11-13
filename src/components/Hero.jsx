@@ -57,22 +57,29 @@ const Hero = () => {
       </div>
 
       {/* Mobile SideBar View */}
-      <div className='flex lg:hidden font-jiji'>
-        <div className='grid sm:grid-cols-3 grid-cols-4 md:grid-cols-5 items-start gap-4'>
-          <div className='flex flex-col items-center gap-1'>
+      <div className="flex lg:hidden font-jiji">
+        <div className="grid sm:grid-cols-3 grid-cols-4 md:grid-cols-5 items-start gap-4">
+          <div className="flex flex-col items-center gap-1">
             <div>
-              <img src='/assets/postad.JPG' alt='Post ad' className='w-18 rounded-lg' />
+              <img
+                src="/assets/postad.JPG"
+                alt="Post ad"
+                className="w-18 rounded-lg"
+              />
             </div>
-            <p className='text-sm'>Post ad</p>
+            <p className="text-sm">Post ad</p>
           </div>
           {mobileSidebar.map((item, index) => (
-            <div key={index} className='flex flex-col items-center gap-1'>
+            <div key={index} className="flex flex-col items-center gap-1">
               <div>
-                <img src={item.src} alt={item.label} className='w-17 bg-gray-200 rounded-lg' />
+                <img
+                  src={item.src}
+                  alt={item.label}
+                  className="w-17 bg-gray-200 rounded-lg"
+                />
               </div>
-              <p className='text-sm text-center'>{item.label}</p>
+              <p className="text-sm text-center">{item.label}</p>
             </div>
-
           ))}
         </div>
       </div>
@@ -84,14 +91,14 @@ const Hero = () => {
         <div className="flex gap-2 overflow-x-scroll">
           {HeroData.map((item, index) => (
             <div key={index} className="flex flex-col gap-2">
-              <div className='w-40 lg:w-35'>
+              <div className="w-40 lg:w-35">
                 <img
                   src={item.src}
                   alt={item.id}
                   className="w-40 h-45 lg:w-35 lg:h-45 rounded-xl"
                 />
               </div>
-              <p className='text-sm'>{item.label}</p>
+              <p className="text-sm">{item.label}</p>
             </div>
           ))}
         </div>
@@ -129,7 +136,7 @@ const Hero = () => {
             {products.map((product, index) => (
               <div
                 key={index}
-                className="flex items-center rounded-xl p-2 lg:p-4 bg-white gap-2 scale-100 hover:scale-101 transition-transform duration-500 cursor-pointer"
+                className="flex items-center rounded-xl p-2 lg:p-4 bg-white gap-2 scale-100 hover:scale-101 transition-transform duration-500 cursor-pointer border-primary hover:border-[#fea03c]"
               >
                 <img
                   alt={product.title}
@@ -155,12 +162,13 @@ const Hero = () => {
                   <div className="text-lg lg:text-2xl font-semibold">
                     {product.title}
                   </div>
-                  <div className="text-sm text-gray-600">{product.description}</div>
+                  <div className="text-sm text-gray-600">
+                    {product.description}
+                  </div>
                   <div className="text-xl font-semibold text-primary">
                     $ {product.price}
                   </div>
                 </div>
-
               </div>
             ))}
           </div>
