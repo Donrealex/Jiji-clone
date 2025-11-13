@@ -5,7 +5,7 @@ import { IoSearchSharp } from 'react-icons/io5'
 const Search = () => {
     const [allnigeria, setAllnigeria] = useState(false)
     return (
-      <section className=" flex flex-col items-center justify-center gap-2 lg:gap-5 bg-primary p-5 lg:p-0 pt-35 pb-8 lg:pb-20 rounded-b-3xl font-jiji">
+      <section className=" flex flex-col items-center justify-center gap-2 lg:gap-5 bg-primary p-5 lg:p-0 pt-35 lg:pt-35 pb-8 lg:pb-20 rounded-b-3xl font-jiji">
         <h1 className="text-white text-xl lg:text-2xl font-semibold">
           What are you looking for?
         </h1>
