@@ -38,9 +38,9 @@ const HomePage = () => {
           }
         />
         <Hero />
-        <div id="footer">
+        <section id="footer">
           <Footer />
-        </div>
+        </section>
       </section>
     );
 }
